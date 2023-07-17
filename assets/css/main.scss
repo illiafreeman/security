@@ -2990,6 +2990,54 @@ main {
         color: #00AEE5; 
     }
 }
+.article__image_blog{
+    flex-direction: column;
+    img{
+        width: 120px !important;
+        height: 120px !important;
+        border-radius: 22px;
+        overflow: hidden;
+    }
+
+}
+.bloger__name{
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #0B1823;
+    transition: all 0.4s ease-out;
+}
+.bloger__info{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: var(--text-secondary-on-white, rgba(11, 24, 35, 0.5));
+}
+.article__main_blog{
+    .article__head--small-image{
+        min-height: auto !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
