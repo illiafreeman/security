@@ -2822,7 +2822,7 @@ footer .container .footer-menu__item a {
 .blog-header .container {
   border-bottom: 1px solid rgba(0, 174, 229, 0.3);
 }
-.blog-header:afters {
+.blog-header:after {
   content: "";
   display: block;
   position: absolute;
