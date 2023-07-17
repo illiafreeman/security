@@ -2967,7 +2967,7 @@ main {
   gap: 10px;
   transition: all 0.4s ease-out;
 }
-.slider2__item:hover .slider__name {
+.slider2__item:hover .slider2__name {
   color: #0089b5;
 }
 .slider2__pic {
@@ -3035,10 +3035,80 @@ main {
   color: var(--text-secondary-on-white, rgba(11, 24, 35, 0.5));
 }
 
-.article__main_blog .article__head--small-image {
+.article__main_blog .article__head--small-image, .article__main_blog .article__group {
   min-height: auto !important;
 }
 
+.blogers__item {
+  display: flex !important;
+  margin: 0;
+  gap: 10px;
+  border-bottom: 1px solid rgba(0, 174, 229, 0.3);
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+}
+.blogers__item:hover .blogers__name {
+  color: #0089b5;
+}
+
+.blogers__pic {
+  width: 52px;
+  min-width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.blogers__name {
+  color: var(--text-darkest, #0B1823);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 4px;
+  transition: all 0.4s ease-out;
+}
+
+.blogers__info {
+  color: var(--text-secondary-on-white, rgba(11, 24, 35, 0.5));
+  /* caption-mobile */
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 18px; /* 138.462% */
+  letter-spacing: -0.13px;
+}
+
+@media screen and (max-width: 1280px) {
+  .article__main_blog .article__head--small-image, .article__main_blog .article__group {
+    min-height: auto !important;
+  }
+  .article__main_blog .article__image_blog {
+    position: static !important;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .article__main_blog .bloger__info {
+    display: flex;
+    flex-direction: column;
+  }
+  .article__main_blog .article__image_blog img {
+    width: 52px !important;
+    height: 52px !important;
+    border-radius: 22px;
+  }
+  .article__main_blog .bloger__name {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .blogers__item {
+    width: 280px;
+  }
+}
 @media screen and (max-width: 768px) {
   .header-blog .logo-7 {
     height: 100px;
