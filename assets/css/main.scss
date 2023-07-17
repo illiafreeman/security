@@ -2798,7 +2798,6 @@ footer .container .footer-menu__item a {
         height: 135px;
         margin: 0 auto;
         display: block;
-        position: absolute;
 
     }
 
@@ -2941,7 +2940,7 @@ main {
     }
     &_next {}
 }
-.slider {
+.slider2 {
     &__item {
         width: 300px;
         display: flex !important;
@@ -2994,7 +2993,32 @@ main {
 
 
 
-
+@media screen and (max-width: 768px){
+    .header-blog .logo-7 {
+        height: 100px;
+    }
+    .slider2__pic {
+        width: 52px;
+        height: 52px;
+    }
+    .slider2__item {
+        width: 200px;
+    }
+    .colwrap{
+        grid-template-columns: 1fr;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .slider-nav{
+        display: none;
+    }
+    .blog_sidebar{
+        display: none;
+    }
+}
 
 
 
