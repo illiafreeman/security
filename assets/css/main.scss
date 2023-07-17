@@ -98,7 +98,7 @@ html {
 body {
     background: #fff;
     color: #0b1823;
-    font-family: Fira Code, monospace;
+    font-family: Fira Code;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.5;
@@ -114,17 +114,17 @@ body {
 }
 
 h1 {
-    font: 500 30px/30px Fira Code, monospace;
+    font: 600 30px/30px Fira Code;
     letter-spacing: -1.5px;
 }
 
 h2 {
-    font: 500 16px/20px Fira Code, monospace;
+    font: 500 16px/20px Fira Code;
     letter-spacing: -0.48px;
 }
 
 h3 {
-    font: 700 16px/26px Fira Code, monospace;
+    font: 700 16px/26px Fira Code;
     text-transform: uppercase;
 }
 
@@ -134,7 +134,7 @@ h4 {
 
 .p,
 p {
-    font: 450 15px/18px Fira Code, monospace;
+    font: 450 15px/18px Fira Code;
     letter-spacing: -0.3px;
 }
 
