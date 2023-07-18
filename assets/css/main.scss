@@ -3150,6 +3150,14 @@ main {
     &:hover{
         color: #000;
     }
+    &_light{
+        background: var(--text-active-blue, #00AEE5);
+        color: #fff; 
+    }
+    &_transparent{
+        background: transparent;
+        color: #00AEE5; 
+    }
 }
 .news {
     &__item {
@@ -3203,7 +3211,7 @@ main {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(25, 31, 50, 0.8);
+    background: #0B1823; 
     transition: all 1s ease-in-out;
     opacity: 0;
     visibility: hidden;
@@ -3213,33 +3221,91 @@ main {
     z-index: 10000;
 }
 .modal-bg.vis {
-    opacity: 1;
+    opacity: .5;
     visibility: visible;
 }
 .modal.vis {
-opacity: 1;
-visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 .modal {
-    width: 640px;
-    background: #fff url(../img/modal_bg.png) center top no-repeat;
+    width: 414px;
+    background: #fff;
     top: 50%;
     left: calc(50% - 17px);
     transform: translate(-50%, -50%);
-    border-radius: 16px;
     position: fixed;
     opacity: 0;
     visibility: hidden;
     overflow-x: hidden;
     overflow-y: auto;
     z-index: 10000;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 174, 229, 0.30);
+    box-shadow: 8px 8px 0px 0px rgba(0, 97, 141, 0.20);
+    &__inner{
+        border: 1px dashed #00AEE5;
+    }
+    .formwrap{
+        padding: 0 40px 40px;
+        .input{
+            
+        }
+        .btn{
+            width: 100%;
+            margin-bottom: 20px;
+            height: 26px;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 13px; /* 100% */
+            letter-spacing: -0.65px; 
+            border: 0;
+            padding: 0;
+        }
+    }
 }
 .oh{
     overflow: hidden !important;
 }
-
-
-
+.modal__body{
+    padding: 16px;
+}
+.modal__desc{
+    color: #FFF;
+    /* h4 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 112.5% */
+    text-transform: uppercase; 
+    border-radius: 1px;
+    background: #00AEE5; 
+    display: inline-flex;
+    margin-bottom: 12px;
+    padding: 2px 4px;
+}
+.input{
+    border-radius: 2px;
+    border: 1px solid var(--divider-blue, rgba(0, 174, 229, 0.30));
+    height: 35px;
+    padding: 10px; 
+    background: #FFF; 
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 100% */
+    color: var(--text-active-blue, #00AEE5); 
+    &::placeholder{
+        opacity: 1;
+    }
+    &.error{
+        color: #E50000; 
+        border-color: #E50000; 
+    }
+}
 
 
 
