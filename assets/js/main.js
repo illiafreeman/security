@@ -137,7 +137,7 @@
                     });
                     var g, S, q;
                     document.querySelector(".header-ascii__art").appendChild(
-                        ((g = Array.from(Array(3), function (e, t) {
+                        ((g = Array.from(Array(9), function (e, t) {
                             return t + 1;
                         })),
                             (S = Math.floor(Math.random() * g.length)),

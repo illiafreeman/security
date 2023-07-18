@@ -336,12 +336,12 @@ header .container .header-ascii__art {
     top: 0;
     width: 100%;
     z-index: -1;
-    background: rgb(172, 141, 141, .1);
+    //background: rgb(172, 141, 141, .1);
 }
 
 header .container .header-ascii__art img {
-    //-webkit-filter: drop-shadow(0 0 34px rgba(0, 225, 255, 0.5)) drop-shadow(0 24px 220px #00e1ff);
-    //filter: drop-shadow(0 0 34px rgba(0, 225, 255, 0.5)) drop-shadow(0 24px 220px #00e1ff);
+    -webkit-filter: drop-shadow(0 0 34px rgba(0, 225, 255, 0.5)) drop-shadow(0 24px 220px #00e1ff);
+    filter: drop-shadow(0 0 34px rgba(0, 225, 255, 0.5)) drop-shadow(0 24px 220px #00e1ff);
     //flex: none;
     width: 350px;
     height: 43px;
@@ -2567,7 +2567,7 @@ footer .container .footer-menu__item a {
     }
 
     header .container .header-ascii__art {
-        align-items: flex-start;
+        //align-items: flex-start;
         height: 135px;
     }
 
