@@ -3187,6 +3187,51 @@ main {
   justify-content: space-between;
 }
 
+.modal-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(25, 31, 50, 0.8);
+  transition: all 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 17px;
+  z-index: 10000;
+}
+
+.modal-bg.vis {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal.vis {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  width: 640px;
+  background: #fff url(../img/modal_bg.png) center top no-repeat;
+  top: 50%;
+  left: calc(50% - 17px);
+  transform: translate(-50%, -50%);
+  border-radius: 16px;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 10000;
+}
+
+.oh {
+  overflow: hidden !important;
+}
+
 @media screen and (max-width: 1280px) {
   .article__main_blog .article__head--small-image, .article__main_blog .article__group {
     min-height: auto !important;

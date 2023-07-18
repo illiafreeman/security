@@ -160,7 +160,7 @@
                         <div id="article" class="main-news__main">
                             <article class="blogpage">
                                 <div class="actionlist">
-                                    <a href="" class="btn">→] Войти</a>
+                                    <div class="btn">→] Войти</div>
                                 </div>
                                 <div class="blogpage__head">
                                     
@@ -330,9 +330,37 @@
             </div>
         </footer>
     </div>
+    <div class="modal-bg"></div>
+    <div class="modal">
+        <div class="modal__body">
+            <div class="modal__desc">_Авторизация</div>
+            <form action="">
+                <input class="input" type="text" placeholder="Логин">
+                <input class="input" type="password" placeholder="Пароль">
+                <button class="btn">Пароль</button>
+                <button class="btn">Восстановить пароль</button>
+            </form>
+        </div>
+    </div>
     <!-- js-->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script defer src="./assets/js/vendors.js"></script>
     <script defer src="./assets/js/main.js"></script>
+    <script>
+            function modal(){
+                $('body').addClass('oh');
+                $('.modal-bg').addClass('vis');
+                $('.modal').addClass('vis');
+            }
+            $('.btn').click(modal);
+
+            $('.modal-bg').on('click',function (e) {
+                $('body').removeClass('oh');
+                $('.modal-bg').removeClass('vis');
+                $('.modal').removeClass('vis');
+                
+            });
+    </script>
 
 </body>
 
