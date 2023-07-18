@@ -3362,7 +3362,54 @@ main {
     width: 860px;
     margin: 0 auto;
 }
-
+.title__sub{
+    margin-bottom: 40px;
+    display: inline-flex;
+    color: #FDFFFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 72.222% */
+    text-transform: uppercase; 
+    padding: 0 3px;
+    border-radius: 3px 1px 1px 3px;
+    background: #00AEE5; 
+    letter-spacing: 1px;
+}
+.glo {
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 174, 229, 0.3);
+        padding-bottom: 16px;
+        margin-bottom: 40px;
+    }
+    &__item-link {
+        color: #0B1823;
+        font-family: Arimo;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        display: flex;
+        transition: all 0.4s ease-out;
+        &:hover{
+            color: var(--text-active-blue, #00AEE5); 
+        }
+    }
+    &__item-desc {
+        color: var(--text-secondary-on-white, rgba(11, 24, 35, 0.50));
+        /* caption */
+        font-family: Fira Code;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 18px; /* 120% */
+        letter-spacing: -0.3px; 
+        width: calc(50% - 1.25rem);
+        min-width: calc(50% - 1.25rem);
+    }
+}
 
 
 
@@ -3569,13 +3616,34 @@ main {
         top: 50%;
         left: calc(50%);
     }
-
-
-
-    @media screen and (max-width: 480px){
-        .modal {
-            width: 90%;
-        }
+    .title__sub{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    .glo__item-link{
+        color: var(--text-darkest, #0B1823);
+        font-family: Arimo;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+        margin-bottom: 8px;
+    }
+    .glo__item-desc {
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 18px; /* 138.462% */
+        letter-spacing: -0.13px; 
+        width: calc(100%);
+        min-width: calc(100%);
+    }
+    .glo__item{
+        flex-direction: column;
+        padding: 16px 0;
+        margin: 0;
     }
 
 
@@ -3583,7 +3651,11 @@ main {
 
     
 }
-
+@media screen and (max-width: 480px){
+    .modal {
+        width: 90%;
+    }
+}
 
 
 
