@@ -3070,6 +3070,131 @@ main {
     line-height: 18px; /* 138.462% */
     letter-spacing: -0.13px; 
 }
+.blogpage {
+    &__head {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        .article__title{
+            color: #00AEE5;
+            margin-bottom: 12px;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 50px; /* 100% */
+            letter-spacing: -2.5px; 
+        }
+    }
+}
+.article {
+    &__title {}
+}
+.filterlist {
+    &__line {
+        display: flex;
+        margin-bottom: 4px;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: var(--text-active-blue, #00AEE5);
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px; /* 111.111% */
+        letter-spacing: -2.16px;
+        text-transform: uppercase; 
+        height: 36px;
+        border-radius: 3px;
+        background: rgba(0, 174, 229, 0.20);
+        margin-right: 4px;
+        padding: 0 4px;
+        &.act{
+            color: #fff;
+            background: #24BDEB; 
+        }
+    }
+}
+.bloger {
+    min-width: 200px;
+    margin-left: 16px;
+    &__info {}
+    &__name {}
+}
+.actionlist{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+}
+.btn{
+    color: #00AEE5;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px; /* 86.667% */
+    letter-spacing: -0.75px; 
+    height: 28px;
+    padding: 0 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.4s ease-out;
+    border-radius: 2px;
+    background: var(--secondary-elements-blue, rgba(0, 174, 229, 0.30));
+    cursor: pointer;
+    &:hover{
+        color: #000;
+    }
+}
+.news {
+    &__item {}
+    &__date {}
+    &__title {}
+    &__preview {}
+}
+.main-news-list {
+    &__details {}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1280px){
 .article__main_blog{
