@@ -583,11 +583,11 @@ header .container .header-ascii__art {
   height: 69px;
   justify-content: center;
   left: 0;
-  position: absolute;
   right: 0;
   top: 0;
   width: 100%;
   z-index: -1;
+  background: red;
 }
 
 header .container .header-ascii__art img {
