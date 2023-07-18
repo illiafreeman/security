@@ -3412,6 +3412,7 @@ main {
         visibility: hidden;
         opacity: 0;
         transition: all .2s ease-in-out;
+        z-index: 100;
         li{
             a{
                 color: var(--background-dark, #1B252E);
@@ -3728,7 +3729,7 @@ main {
         top: 50%;
         left: calc(50%);
     }
-    .title__sub{
+    .title__sub, .title__sub-menu{
         font-size: 30px;
         font-style: normal;
         font-weight: 600;
@@ -3757,7 +3758,9 @@ main {
         padding: 16px 0;
         margin: 0;
     }
-
+    .glo__link {
+        padding: 16px 0 ;
+    }
 
 
 
@@ -3766,6 +3769,14 @@ main {
 @media screen and (max-width: 480px){
     .modal {
         width: 90%;
+    }
+    .glo__list {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    .title__sub-drop {
+        right: -50%;
+        left: auto;
     }
 }
 
