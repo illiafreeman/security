@@ -3129,6 +3129,7 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 16px;
+    gap: 16px;
 }
 .btn{
     color: #00AEE5;
@@ -3148,15 +3149,44 @@ main {
     background: var(--secondary-elements-blue, rgba(0, 174, 229, 0.30));
     cursor: pointer;
     &:hover{
-        color: #000;
+        color: #FBFEFF;
+        background: var(--text-active-blue, #00AEE5); 
     }
     &_light{
         background: var(--text-active-blue, #00AEE5);
         color: #fff; 
+        &:hover{
+            color: #FBFEFF;
+            background: var(--text-active-blue, #00AEE5); 
+            opacity: 0.699999988079071; 
+        }
     }
     &_transparent{
         background: transparent;
         color: #00AEE5; 
+        &:hover{
+            border-radius: 2px;
+            opacity: 0.699999988079071;
+            background: var(--secondary-elements-blue, rgba(0, 174, 229, 0.30));
+        }
+    }
+    &_line{
+        background: transparent;
+        &:hover{
+            border-radius: 2px;
+            opacity: 0.699999988079071;
+            background: var(--secondary-elements-blue, rgba(0, 174, 229, 0.30)); 
+            color: var(--text-active-blue, #00AEE5); 
+        }
+    }
+    &_line-dis{
+        background: transparent;
+        color: #0B1823; 
+        &:hover{
+            color: #0B1823; 
+            background: transparent; 
+        }
+
     }
 }
 .news {

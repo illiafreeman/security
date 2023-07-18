@@ -3118,6 +3118,7 @@ main {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 16px;
+  gap: 16px;
 }
 
 .btn {
@@ -3139,15 +3140,43 @@ main {
   cursor: pointer;
 }
 .btn:hover {
-  color: #000;
+  color: #FBFEFF;
+  background: var(--text-active-blue, #00AEE5);
 }
 .btn_light {
   background: var(--text-active-blue, #00AEE5);
   color: #fff;
 }
+.btn_light:hover {
+  color: #FBFEFF;
+  background: var(--text-active-blue, #00AEE5);
+  opacity: 0.6999999881;
+}
 .btn_transparent {
   background: transparent;
   color: #00AEE5;
+}
+.btn_transparent:hover {
+  border-radius: 2px;
+  opacity: 0.6999999881;
+  background: var(--secondary-elements-blue, rgba(0, 174, 229, 0.3));
+}
+.btn_line {
+  background: transparent;
+}
+.btn_line:hover {
+  border-radius: 2px;
+  opacity: 0.6999999881;
+  background: var(--secondary-elements-blue, rgba(0, 174, 229, 0.3));
+  color: var(--text-active-blue, #00AEE5);
+}
+.btn_line-dis {
+  background: transparent;
+  color: #0B1823;
+}
+.btn_line-dis:hover {
+  color: #0B1823;
+  background: transparent;
 }
 
 .news__item {
