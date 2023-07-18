@@ -2729,6 +2729,7 @@ footer .container .footer-menu__item a {
     #article .container .article__sidebar {
         margin-right: 2.5rem;
         width: 300px;
+        min-width: 300px;
     }
 
     #article .container .article__head--small-image {
@@ -3363,7 +3364,7 @@ main {
     margin: 0 auto;
 }
 .title__sub{
-    margin-bottom: 40px;
+    
     display: inline-flex;
     color: #FDFFFF;
     font-size: 36px;
@@ -3375,6 +3376,24 @@ main {
     border-radius: 3px 1px 1px 3px;
     background: #00AEE5; 
     letter-spacing: 1px;
+    &-menu{
+        display: inline-flex;
+        color: #FDFFFF;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px; /* 72.222% */
+        text-transform: uppercase; 
+        padding: 0 3px;
+        border-radius: 3px 1px 1px 3px;
+        background: #00AEE5; 
+        letter-spacing: 1px;
+        margin-left: 3px;
+        cursor: default;
+    }
+    &-wrap{
+        margin-bottom: 40px;
+    }
 }
 .glo {
     &__item {
@@ -3408,6 +3427,53 @@ main {
         letter-spacing: -0.3px; 
         width: calc(50% - 1.25rem);
         min-width: calc(50% - 1.25rem);
+    }
+}
+.glo {
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 40px;
+    }
+    &__link {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgba(0, 174, 229, 0.30);
+        padding: 16px 0 60px;
+        &:hover{
+            .glo__item-name{
+                color: var(--text-active-blue, #00AEE5);
+            }
+        }
+    }
+    &__item-cat {
+        color: #00AEE5;
+        /* mastheads */
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px; /* 100% */
+        letter-spacing: -0.65px; 
+    }
+    &__item-name {
+        color: var(--text-darkest, #0B1823);
+        padding: 16px 0;
+        font-family: Arimo;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        transition: all 0.4s ease-out;
+    }
+    &__link-desc {
+        color: var(--text-secondary-on-white, rgba(11, 24, 35, 0.50));
+        /* caption */
+        font-family: Fira Code;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 18px; /* 120% */
+        letter-spacing: -0.3px; 
     }
 }
 
