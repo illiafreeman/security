@@ -3353,6 +3353,16 @@ main {
   border-color: #E50000;
 }
 
+.container_content {
+  padding-top: 20px;
+  display: block;
+}
+
+.contentpage {
+  width: 860px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1280px) {
   .article__main_blog .article__head--small-image, .article__main_blog .article__group {
     min-height: auto !important;
