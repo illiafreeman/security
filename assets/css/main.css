@@ -3532,7 +3532,6 @@ main {
 .glo__link-desc {
   color: var(--text-secondary-on-white, rgba(11, 24, 35, 0.5));
   /* caption */
-  font-family: Fira Code;
   font-size: 15px;
   font-style: normal;
   font-weight: 450;
@@ -3540,6 +3539,37 @@ main {
   letter-spacing: -0.3px;
 }
 
+.gloapp {
+  background: #cceffa;
+  margin-bottom: 324px;
+  position: relative;
+}
+.gloapp__name {
+  transform: translateY(-36px);
+  width: 440px;
+  background: #cceffa;
+  color: #0B1823;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 72.222% */
+  letter-spacing: -1.44px;
+  text-transform: uppercase;
+  padding: 18px;
+}
+.gloapp__name span {
+  display: block;
+}
+.gloapp__desc {
+  color: #0B1823;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.5px;
+  padding: 20px;
+}
 @media screen and (max-width: 1280px) {
   .article__main_blog .article__head--small-image, .article__main_blog .article__group {
     min-height: auto !important;
