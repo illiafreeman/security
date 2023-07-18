@@ -3085,6 +3085,13 @@ main {
             font-weight: 500;
             line-height: 50px; /* 100% */
             letter-spacing: -2.5px; 
+            span{
+                border-radius: 3px;
+                background: #00AEE5; 
+                color: #fff;
+                padding: 0 5px;
+                margin-left: 3px;
+            }
         }
     }
 }
@@ -3092,7 +3099,8 @@ main {
     &__title {}
 }
 .filterlist {
-    overflow-y: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
     max-width: 100%;
     &__line {
         display: flex;

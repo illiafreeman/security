@@ -3082,9 +3082,17 @@ main {
   line-height: 50px; /* 100% */
   letter-spacing: -2.5px;
 }
+.blogpage__title .article__title span {
+  border-radius: 3px;
+  background: #00AEE5;
+  color: #fff;
+  padding: 0 5px;
+  margin-left: 3px;
+}
 
 .filterlist {
-  overflow-y: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   max-width: 100%;
 }
 .filterlist__line {
