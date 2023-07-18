@@ -3559,6 +3559,9 @@ main {
 }
 .gloapp__name span {
   display: block;
+  border-radius: 3px;
+  background: rgba(11, 24, 35, 0.1);
+  padding: 5px;
 }
 .gloapp__desc {
   color: #0B1823;
@@ -3569,6 +3572,8 @@ main {
   line-height: 28px; /* 155.556% */
   letter-spacing: -0.5px;
   padding: 20px;
+  transform: translateY(-36px);
+  width: 85%;
 }
 @media screen and (max-width: 1280px) {
   .article__main_blog .article__head--small-image, .article__main_blog .article__group {
