@@ -590,6 +590,7 @@ header .container .header-ascii__art {
 }
 
 header .container .header-ascii__art img {
+  filter: drop-shadow(0 0 34px rgba(0, 225, 255, 0.5)) drop-shadow(0 24px 220px #00e1ff);
   width: 350px;
   max-height: 100%;
 }
