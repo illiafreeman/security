@@ -123,7 +123,7 @@
                                 return e.classList.remove("current");
                             }),
                                 r.classList.remove("right-2"),
-                                t.classList.remove("open"),
+                                //t.classList.remove("open"),
                                 o.firstElementChild.setAttribute(
                                     "data-action",
                                     "close-submenu"

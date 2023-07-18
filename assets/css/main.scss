@@ -619,20 +619,20 @@ footer .container .footer-menu__item a {
     align-items: center;
 }
 
-.menu-navigation__submenu .menu-navigation__item:nth-child(3)>a {
+.menu-navigation__submenu .menu-navigation__item:nth-child(2)>a {
     height: 39px;
 }
 
-.menu-navigation__submenu .menu-navigation__item:nth-child(3) {
+.menu-navigation__submenu .menu-navigation__item:nth-child(2) {
     height: 65px;
 }
 
-.menu-navigation__submenu .menu-navigation__item:nth-child(3)>a::before {
+.menu-navigation__submenu .menu-navigation__item:nth-child(2)>a::before {
     bottom: -16px;
 }
 
 .menu-navigation .menu-navigation__item:nth-child(1)>a::after,
-.menu-navigation__submenu .menu-navigation__item:nth-child(2)>a::after {
+.menu-navigation__submenu .menu-navigation__item:nth-child(1)>a::after {
     content: "";
     position: absolute;
     left: -4px;
