@@ -3574,7 +3574,19 @@ main {
         transform: translateY(-36px); 
         width: 85%;
     }
-    &__link {}
+    &__link {
+        display: block;
+        position: absolute;
+        top: -28px;
+        right: 0;
+        color: #00AEE5;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px; /* 86.667% */
+        letter-spacing: -0.75px; 
+    }
 }
 
 
