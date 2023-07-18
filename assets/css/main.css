@@ -587,12 +587,10 @@ header .container .header-ascii__art {
   top: 0;
   width: 100%;
   z-index: -1;
-  background: red;
+  background: rgba(172, 141, 141, 0.1);
 }
 
 header .container .header-ascii__art img {
-  filter: drop-shadow(0 0 34px rgba(0, 225, 255, 0.5)) drop-shadow(0 24px 220px #00e1ff);
-  flex: none;
   width: 350px;
   height: 43px;
 }
