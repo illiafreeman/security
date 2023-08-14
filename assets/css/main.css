@@ -5468,19 +5468,7 @@ header .container .header-menu-bar-b a svg {
   color: transparent;
   font-size: 40px;
 
-  &:before {
-    content: "";
-    position: absolute;
-    color: #00AEE5;
-    top: 50%;
-    left: 50%;
-    background: #00AEE5;
-    width: 0;
-    height: 1.2em;
-    -webkit-transform: translate(-50%, -55%);
-    -ms-transform: translate(-50%, -55%);
-    transform: translate(-50%, -55%);
-  }
+  
 
   &.state-1 {
     &:before {
@@ -5501,6 +5489,31 @@ header .container .header-menu-bar-b a svg {
       width: 0;
     }
   }
+}
+.text-animation{
+
+}
+.text-animation{
+  
+}
+.text-animation{
+  
+}
+.text-animation{
+  
+}
+.text-animation:before {
+  content: "";
+  position: absolute;
+  color: #00AEE5;
+  top: 50%;
+  left: 50%;
+  background: #00AEE5;
+  width: 0;
+  height: 1.2em;
+  -webkit-transform: translate(-50%, -55%);
+  -ms-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
 }
 
 .header .content {
