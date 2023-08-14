@@ -21,9 +21,9 @@
 
 <body>
     <div id="app">
-        <header>
-            <div class="container">
-                <div class="header content">
+        <header class="header-dest">
+            <div class="container bordb-t border-none ">
+                <div class="header content border">
                     <div class="header-ascii">
                         <div class="header-ascii__art"></div>
                         <div class="header-ascii__lead">новости кибербезопасности</div>
@@ -147,17 +147,32 @@
             <section id="article">
                 <div class="container">
                     <div class="article content">
-                        <aside class="article__sidebar">
-                            <div class="article__banner"><a href="#" target="_blank"
-                                    title="Стань спикером на PHDAYS12"><img src="./image/banner/phdays12.jpg"
-                                        srcset="./image/banner/phdays12@2x.jpg 2x" loading="lazy" alt="PHDAYS12"></a>
+                        <aside class="article__sidebar side-none">
+                            <div class="side__wrapper side-auto" id="sidebar">
+                                <div class="article__banner"><a href="#" target="_blank"
+                                        title="Стань спикером на PHDAYS12"><img src="./image/banner/phdays12.jpg"
+                                            srcset="./image/banner/phdays12@2x.jpg 2x" loading="lazy"
+                                            alt="PHDAYS12"></a>
+                                </div>
                             </div>
-                            
+
                         </aside>
-                        <article class="glo-wrap">
+                        <article class="glo-wrap" id="main_content">
                             <div class="title__sub-wrap">
                                 <h1 class="title__sub">_Глоссарий</h1>
-                                <span class="title__sub-menu">_Софт</span>
+                                <span class="title__sub-menu border-rad-none ght">
+                                    _Софт
+                                    <ul class="title__sub-drop">
+                                        <li><a href="">Системные утилиты</a></li>
+                                        <li><a href="">Сетевые утилиты</a></li>
+                                        <li><a href="">Аппаратные утилиты</a></li>
+                                        <li><a href="">Беспроводные сети</a></li>
+                                        <li><a href="">Загрузочные антивирусные диски</a></li>
+                                        <li><a href="">Защита от целенаправленных атак</a></li>
+                                        <li><a href="">Конкурентная разведка</a></li>
+                                        <li><a href="">Ограничение доступа</a></li>
+                                    </ul>
+                                </span>
                             </div>
                             <div class="glo">
                                 <div class="glo__item">
@@ -173,6 +188,22 @@
                                 </div>
                                 <div class="glo__item">
                                     <a href="" class="glo__item-link">Беспроводные сети</a>
+                                    <div class="glo__item-col">12 категорий</div>
+                                </div>
+                                <div class="glo__item">
+                                    <a href="" class="glo__item-link">Загрузочные антивирусные диски</a>
+                                    <div class="glo__item-col">17 категорий</div>
+                                </div>
+                                <div class="glo__item">
+                                    <a href="" class="glo__item-link">Защита от целенаправленных атак</a>
+                                    <div class="glo__item-col"></div>
+                                </div>
+                                <div class="glo__item">
+                                    <a href="" class="glo__item-link">Конкурентная разведка</a>
+                                    <div class="glo__item-col">17 категорий</div>
+                                </div>
+                                <div class="glo__item">
+                                    <a href="" class="glo__item-link">Ограничение доступа</a>
                                     <div class="glo__item-col">12 категорий</div>
                                 </div>
                             </div>
@@ -270,6 +301,7 @@
     <!-- js-->
     <script defer src="./assets/js/vendors.js?v=da32d7a"></script>
     <script defer src="./assets/js/main.js?v=4c15106"></script>
+    <script src="./assets/js/sidebar.js"></script>
 </body>
 
 </html>

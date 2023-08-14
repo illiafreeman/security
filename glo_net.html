@@ -21,9 +21,9 @@
 
 <body>
     <div id="app">
-        <header>
-            <div class="container">
-                <div class="header content">
+        <header class="header-dest">
+            <div class="container bordb-t border-none ">
+                <div class="header content border">
                     <div class="header-ascii">
                         <div class="header-ascii__art"></div>
                         <div class="header-ascii__lead">новости кибербезопасности</div>
@@ -147,17 +147,20 @@
             <section id="article">
                 <div class="container">
                     <div class="article content">
-                        <aside class="article__sidebar">
-                            <div class="article__banner"><a href="#" target="_blank"
-                                    title="Стань спикером на PHDAYS12"><img src="./image/banner/phdays12.jpg"
-                                        srcset="./image/banner/phdays12@2x.jpg 2x" loading="lazy" alt="PHDAYS12"></a>
+                        <aside class="article__sidebar side-none">
+                            <div class="side__wrap side-auto" id="sidebar">
+                                <div class="article__banner"><a href="#" target="_blank"
+                                        title="Стань спикером на PHDAYS12"><img src="./image/banner/phdays12.jpg"
+                                            srcset="./image/banner/phdays12@2x.jpg 2x" loading="lazy"
+                                            alt="PHDAYS12"></a>
+                                </div>
                             </div>
-                            
+
                         </aside>
-                        <article class="">
+                        <article class="" id="main_content">
                             <div class="title__sub-wrap">
                                 <h1 class="title__sub">_Глоссарий</h1>
-                                <span class="title__sub-menu">
+                                <span class="title__sub-menu border-rad-none">
                                     _Софт
                                     <ul class="title__sub-drop">
                                         <li><a href="">Системные утилиты</a></li>
@@ -170,7 +173,7 @@
                                         <li><a href="">Ограничение доступа</a></li>
                                     </ul>
                                 </span>
-                                <span class="title__sub-menu">_сетевые_утилиты</span>
+                                <span class="title__sub-menu mlg mt3 ml0">_сетевые_утилиты</span>
                             </div>
                             <div class="glo__list">
                                 <a href="" class="glo__link">
@@ -180,13 +183,16 @@
                                 </a>
                                 <a href="" class="glo__link">
                                     <span class="glo__item-cat">Мониторинг_сети</span>
-                                    <span class="glo__item-name">3D сенсорная платформа от Ambarella, Lumentum и ON Semiconductor</span>
-                                    <span class="glo__link-desc">Разработка смарт-систем контроля доступа и «умных» продуктов видеонаблюдения</span>
+                                    <span class="glo__item-name">3D сенсорная платформа от Ambarella, Lumentum и ON
+                                        Semiconductor</span>
+                                    <span class="glo__link-desc">Разработка смарт-систем контроля доступа и «умных»
+                                        продуктов видеонаблюдения</span>
                                 </a>
                                 <a href="" class="glo__link">
                                     <span class="glo__item-cat">Удаленное_управление</span>
                                     <span class="glo__item-name">Remote Office Manager 4.1.2</span>
-                                    <span class="glo__link-desc">Программа для удаленного администрирования и управления компьютерами</span>
+                                    <span class="glo__link-desc">Программа для удаленного администрирования и управления
+                                        компьютерами</span>
                                 </a>
                                 <a href="" class="glo__link">
                                     <span class="glo__item-cat">Мониторинг_сети</span>
@@ -196,7 +202,8 @@
                                 <a href="" class="glo__link">
                                     <span class="glo__item-cat">FTP_клиенты</span>
                                     <span class="glo__item-name">WS_FTP Pro 12.2</span>
-                                    <span class="glo__link-desc">WS_FTP Server делает ваши данные легко доступными и сохранными посредством настройки, управления и защиты папок</span>
+                                    <span class="glo__link-desc">WS_FTP Server делает ваши данные легко доступными и
+                                        сохранными посредством настройки, управления и защиты папок</span>
                                 </a>
                             </div>
                         </article>
@@ -293,6 +300,7 @@
     <!-- js-->
     <script defer src="./assets/js/vendors.js?v=da32d7a"></script>
     <script defer src="./assets/js/main.js?v=4c15106"></script>
+    <script src="./assets/js/sidebar.js"></script>
 </body>
 
 </html>
