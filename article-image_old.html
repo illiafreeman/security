@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog Article</title>
+    <title>SecurityLab</title>
     <!-- meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -21,16 +21,14 @@
 
 <body>
     <div id="app">
-        <header class="blog-header ">
-            <div class="header-ascii__art none"></div>
-            <div class="container">
-                <div class="header content">
+        <header class="ad _fixed header-dest article-head">
+            <div class="container art-img">
+                <div class="header content art new-fix">
                     <div class="header-ascii">
-                        <div class="header-blog">
-                            <img src="./image/ascii/blogs.svg" class="logo-7" alt="SecurityLab">
-                        </div>
+                        <div class="header-ascii__art"></div>
+                        <div class="header-ascii__lead">новости кибербезопасности</div>
                     </div>
-                    <div class="header__block">
+                    <div class="header__block ">
                         <div class="header-logo"><a href="./" title="SecurityLab">
                                 <svg>
                                     <use href="./image/logo.svg#logo"></use>
@@ -48,6 +46,9 @@
                                         <use href="./image/icon/menu.svg#menu"></use>
                                     </svg></a></div>
                         </div>
+                    </div>
+                    <div class="progress-wrap">
+                        <div class="progress-bar" id="progressBar"></div>
                     </div>
                 </div>
             </div>
@@ -87,7 +88,8 @@
                                     </li>
                                     <li class="menu-navigation__item">
                                         <a href="#" class="menu-navigation__item__link"
-                                            title="Хакерские группировки">Хакерские группировки</a>
+                                            title="Хакерские группировки">Хакерские
+                                            группировки</a>
                                     </li>
                                     <li class="menu-navigation__item">
                                         <a href="#" class="menu-navigation__item__link"
@@ -146,176 +148,182 @@
         <!-- Menu end-->
         <main>
             <section id="article">
-                <div class="container pb0">
+                <div class="container">
                     <div class="article content">
                         <aside class="article__sidebar">
-                            <div class="side-wrapper" id="sidebar">
+                            <div class="sidebar-wrap" id="sidebar">
                                 <div class="article__banner article__banner--small"><a href="#" target="_blank"
                                         title="Стань спикером на PHDAYS12"><img src="./image/banner/phdays12.jpg"
                                             srcset="./image/banner/phdays12@2x.jpg 2x" loading="lazy"
-                                            alt="PHDAYS12"></a>
-                                </div>
-                                <div class="blogers slider article-feed full mb-mob">
+                                            alt="PHDAYS12"></a></div>
+                                <div class="article-feed slider">
                                     <div class="article-feed__title">
-                                        <h2><span>_топ_блогеров</span></h2>
+                                        <h2><span>_Лента</span></h2>
                                     </div>
                                     <div class="article-feed-list swiper-wrapper">
-                                        <a href="" class="blogers__item swiper-slide pad-bot">
-                                            <img class="blogers__pic" src="./image/slider_1.jpg" alt="">
-                                            <div class="blogers__desc">
-                                                <div class="blogers__descwrap">
-                                                    <div class="blogers__name">Игорь<span>_Бедеров</span></div>
-                                                    <div class="blogers__info">Интернет-розыск</div>
-                                                </div>
+                                        <article class="article-feed-list__item swiper-slide">
+                                            <div class="article-feed-list__head">
+                                                <time class="article-feed-list__date" datetime="2023-06-30">30 июн,
+                                                    12:28</time>
+                                                <div class="article-feed-list__rubric"><a href="#"
+                                                        title="Инструменты">Инструменты</a></div>
                                             </div>
-                                        </a>
-                                        <a href="" class="blogers__item swiper-slide pad-bot">
-                                            <img class="blogers__pic" src="./image/slider_2.jpg" alt="">
-                                            <div class="blogers__desc">
-                                                <div class="blogers__descwrap">
-                                                    <div class="blogers__name">Positive_<br>Investing</div>
-                                                    <div class="blogers__info">Позитивные инвестиции</div>
-                                                </div>
+                                            <div class="article-feed-list__title">
+                                                <a href="./article.html"
+                                                    title="Qualcomm тайно собирает данные со смартфонов пользователей без их согласия">
+                                                    <h4>Qualcomm тайно собирает данные со смартфонов пользователей без
+                                                        их согласия</h4>
+
+                                                </a>
                                             </div>
-                                        </a>
-                                        <a href="" class="blogers__item swiper-slide pad-bot">
-                                            <img class="blogers__pic" src="./image/slider_3.jpg" alt="">
-                                            <div class="blogers__desc">
-                                                <div class="blogers__descwrap">
-                                                    <div class="blogers__name">Алексей_Лукацкий</div>
-                                                    <div class="blogers__info">Интернет и СМИ как проблема национальной
-                                                        безопасности</div>
-                                                </div>
+                                        </article>
+                                        <article class="article-feed-list__item swiper-slide">
+                                            <div class="article-feed-list__head">
+                                                <time class="article-feed-list__date" datetime="2023-06-30">30 июн,
+                                                    12:28</time>
+                                                <div class="article-feed-list__rubric"><a href="#"
+                                                        title="Инструменты">Инструменты</a></div>
                                             </div>
-                                        </a>
-                                        <a href="" class="blogers__item swiper-slide pad-bot">
-                                            <img class="blogers__pic" src="./image/slider_2.jpg" alt="">
-                                            <div class="blogers__desc">
-                                                <div class="blogers__descwrap">
-                                                    <div class="blogers__name">Рамиль_Гарифуллин</div>
-                                                    <div class="blogers__info">Интернет-розыск</div>
-                                                </div>
+                                            <div class="article-feed-list__title"><a href="./article.html"
+                                                    title="ChaosGPT — новая нейросеть без моральных и этических ограничений">
+                                                    <h4>ChaosGPT — новая нейросеть без моральных и этических ограничений
+                                                    </h4>
+                                                </a></div>
+                                        </article>
+                                        <article class="article-feed-list__item swiper-slide">
+                                            <div class="article-feed-list__head">
+                                                <time class="article-feed-list__date" datetime="2023-06-30">30 июн,
+                                                    12:28</time>
+                                                <div class="article-feed-list__rubric"><a href="#"
+                                                        title="Инструменты">Инструменты</a></div>
                                             </div>
-                                        </a>
+                                            <div class="article-feed-list__title"><a href="./article.html"
+                                                    title="Крупный облачный провайдер подвергся кибератаке из-за ошибки в ядре Linux">
+                                                    <h4>Крупный облачный провайдер подвергся кибератаке из-за ошибки
+                                                        в ядре Linux</h4>
+                                                </a></div>
+                                        </article>
+                                        <article class="article-feed-list__item swiper-slide">
+                                            <div class="article-feed-list__head">
+                                                <time class="article-feed-list__date" datetime="2023-06-30">30 июн,
+                                                    12:28</time>
+                                                <div class="article-feed-list__rubric"><a href="#"
+                                                        title="Инструменты">Инструменты</a></div>
+                                            </div>
+                                            <div class="article-feed-list__title"><a href="./article.html"
+                                                    title="Цифровые паспорта в России: покупка алкоголя и сигарет с помощью новой технологии">
+                                                    <h4>Цифровые паспорта в России: покупка алкоголя и сигарет с помощью
+                                                        новой технологии</h4>
+                                                </a></div>
+                                        </article>
                                     </div>
                                 </div>
                             </div>
                         </aside>
-                        <article class="article__main article__main_blog" id="main_content">
-                            <div class="article__head article__head--small-image">
-                                <div class="article__group mb-new">
-                                    <div class="article__title">
-                                        <h1>
-                                            <span class="animation-decode animation-decode--blue deskn bg-none">
-                                                История успеха: как Кевин Митник превратил свою хакерскую карьеру
-                                                в легальный бизнес
-                                            </span>
-                                            <div class="decode-text white">
-                                                <div class="text-animation">И</div>
-                                                <div class="text-animation">с</div>
-                                                <div class="text-animation">т</div>
-                                                <div class="text-animation">о</div>
-                                                <div class="text-animation">р</div>
-                                                <div class="text-animation">и</div>
-                                                <div class="text-animation">я</div>
-                                                <!-- <div class="text-animation">m</div> -->
-                                                <div class="space"></div>
+                        <article class="article__main" id="main_content">
+                            <div class="article__head">
+                                <div class="article__image">
+                                    <picture>
+                                        <source srcset="./image/article/4.m.jpg, /image/article/4@2x.jpg"
+                                            media="(max-width: 991px)" type="image/jpeg"><img
+                                            src="./image/article/4.jpg" srcset="./image/article/4@2x.jpg"
+                                            loading="eager"
+                                            alt="Qualcomm тайно собирает данные со смартфонов пользователей без их согласия">
+                                    </picture>
+                                </div>
+                                <div class="article__title">
+                                    <h1>
+                                        <span class="animation-decode animation-decode--blue deskn">Qualcomm тайно
+                                            собирает данные со
+                                            смартфонов
+                                            пользователей без их согласия</span>
+                                        <div class="decode-text">
+                                            <div class="text-animation">Q</div>
+                                            <div class="text-animation">u</div>
+                                            <div class="text-animation">a</div>
+                                            <div class="text-animation">l</div>
+                                            <div class="text-animation">c</div>
+                                            <div class="text-animation">o</div>
+                                            <div class="text-animation">m</div>
+                                            <div class="text-animation">m</div>
+                                            <div class="space"></div>
 
-                                                <div class="text-animation">у</div>
-                                                <div class="text-animation">с</div>
-                                                <div class="text-animation">п</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">х</div>
-                                                <div class="text-animation">а</div>
-                                                <div class="text-animation">:</div>
-                                                <div class="space"></div>
+                                            <div class="text-animation">т</div>
+                                            <div class="text-animation">а</div>
+                                            <div class="text-animation">й</div>
+                                            <div class="text-animation">н</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="space"></div>
 
-                                                <div class="text-animation">к</div>
-                                                <div class="text-animation">а</div>
-                                                <div class="text-animation">к</div>
-                                                <div class="space"></div>
-
-                                                <div class="text-animation">К</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">в</div>
-                                                <div class="text-animation">и</div>
-                                                <div class="text-animation">н</div>
-
-                                                <div class="space max-space"></div>
-                                                <div class="text-animation">М</div>
-                                                <div class="text-animation">и</div>
-                                                <div class="text-animation">т</div>
-                                                <div class="text-animation">н</div>
-                                                <div class="text-animation">и</div>
-                                                <div class="text-animation">к</div>
-
-                                                <div class="space"></div>
-                                                <div class="text-animation">п</div>
-                                                <div class="text-animation">р</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">в</div>
-                                                <div class="text-animation">р</div>
-                                                <div class="text-animation">а</div>
-                                                <div class="text-animation">т</div>
-                                                <div class="text-animation">и</div>
-                                                <div class="text-animation">л</div>
-                                                <div class="space mbs"></div>
-                                                <div class="text-animation">с</div>
-                                                <div class="text-animation">в</div>
-                                                <div class="text-animation">о</div>
-                                                <div class="text-animation">ю</div>
-                                                <!-- <div class="text-animation">х</div> -->
-                                                <div class="space max-space"></div>
-                                                <div class="text-animation">х</div>
-                                                <div class="text-animation">а</div>
-                                                <div class="text-animation">к</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">р</div>
-                                                <div class="text-animation">с</div>
-                                                <div class="text-animation">к</div>
-                                                <div class="text-animation">у</div>
-                                                <div class="text-animation">ю</div>
-                                                <div class="space"></div>
-                                                <div class="text-animation">к</div>
-                                                <div class="text-animation">а</div>
-                                                <div class="text-animation">р</div>
-                                                <div class="text-animation">ь</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">р</div>
-                                                <div class="text-animation">у</div>
-                                                <div class="space max-space"></div>
-                                                <div class="text-animation">в</div>
-                                                <div class="space"></div>
-                                                <div class="text-animation">л</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">г</div>
-                                                <div class="text-animation">а</div>
-                                                <div class="text-animation">л</div>
-                                                <div class="text-animation">ь</div>
-                                                <div class="text-animation">н</div>
-                                                <div class="text-animation">ы</div>
-                                                <div class="text-animation">й</div>
-                                                <div class="space"></div>
-                                                <div class="text-animation">б</div>
-                                                <div class="text-animation">и</div>
-                                                <div class="text-animation">з</div>
-                                                <div class="text-animation">н</div>
-                                                <div class="text-animation">е</div>
-                                                <div class="text-animation">с</div>
-                                            </div>
-                                        </h1>
-                                    </div>
-                                    <div class="article__image article__image_blog">
-                                        <img src="./image/slider_1.jpg" loading="eager" alt="">
-                                        <div class="bloger__info">
-                                            <div class="bloger__name">Юрий_Кочетов</div>
-                                            <div class="bloger__info">Просто хакер</div>
+                                            <div class="text-animation">с</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="text-animation">б</div>
+                                            <div class="text-animation">и</div>
+                                            <div class="text-animation">р</div>
+                                            <div class="text-animation">а</div>
+                                            <div class="text-animation">е</div>
+                                            <div class="text-animation">т</div>
+                                            <div class="space max-space-mob mbh"></div>
+                                            <div class="text-animation">д</div>
+                                            <div class="text-animation">а</div>
+                                            <div class="text-animation">н</div>
+                                            <div class="text-animation">н</div>
+                                            <div class="text-animation">ы</div>
+                                            <div class="text-animation">е</div>
+                                            <div class="space "></div>
+                                            <div class="text-animation">с</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="space"></div>
+                                            <div class="text-animation">с</div>
+                                            <div class="text-animation">м</div>
+                                            <div class="text-animation">а</div>
+                                            <div class="text-animation">р</div>
+                                            <div class="text-animation">т</div>
+                                            <div class="text-animation">ф</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="text-animation">н</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="text-animation">в</div>
+                                            <div class="space max-space-mob mbh"></div>
+                                            <div class="text-animation">п</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="text-animation">л</div>
+                                            <div class="text-animation">ь</div>
+                                            <div class="text-animation">з</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="text-animation">в</div>
+                                            <div class="text-animation">а</div>
+                                            <div class="text-animation">т</div>
+                                            <div class="text-animation">е</div>
+                                            <div class="text-animation">л</div>
+                                            <div class="text-animation">е</div>
+                                            <div class="text-animation">й</div>
+                                            <div class="space"></div>
+                                            <div class="text-animation">б</div>
+                                            <div class="text-animation">е</div>
+                                            <div class="text-animation">з</div>
+                                            <div class="space  "></div>
+                                            <div class="text-animation">и</div>
+                                            <div class="text-animation">х</div>
+                                            <div class="space mbh"></div>
+                                            <div class="text-animation">с</div>
+                                            <div class="text-animation">о</div>
+                                            <div class="text-animation">г</div>
+                                            <div class="text-animation">л</div>
+                                            <div class="text-animation">а</div>
+                                            <div class="text-animation">с</div>
+                                            <div class="text-animation">и</div>
+                                            <div class="text-animation">я</div>
                                         </div>
-
-                                    </div>
+                                    </h1>
+                                </div>
+                                <div class="article__preview">
+                                    <p>Ранее неизвестный вариант Royal с помощью одной команды может зашифровать все
+                                        виртуальные машины
+                                    </p>
                                 </div>
                             </div>
-                            <div class="article__details mt0">
+                            <div class="article__details">
                                 <time class="article__date" datetime="2023-06-30">30 июн, 12:28</time>
                                 <ul class="article-tags">
                                     <li class="article-tags__link"><a href="#" title="Новости">Новости</a></li>
@@ -339,15 +347,15 @@
 
                                 <code>
 
-                                  <span>-stopvm</span><span>останавливает все работающие виртуальные машины, чтобы их можно было зашифровать;</span>
+                  <span>-stopvm</span><span>останавливает все работающие виртуальные машины, чтобы их можно было зашифровать;</span>
 
 
-                                  <span>-vmonly</span> <span>шифровать только виртуальные машины;</span>
-                                  <span>-fork</span> <span>неизвестно;</span>
-                                  <span>-logs</span> <span>неизвестно;</span>
-                                  <span>-id</span> <span>идентификатор из 32 символов</span>
+                  <span>-vmonly</span> <span>шифровать только виртуальные машины;</span>
+                  <span>-fork</span> <span>неизвестно;</span>
+                  <span>-logs</span> <span>неизвестно;</span>
+                  <span>-id</span> <span>идентификатор из 32 символов</span>
 
-                                </code>
+                </code>
 
                                 <div class="article__text">
                                     <div class="p">
@@ -465,28 +473,28 @@
 
 
                                 <code>
-                                    <p>
-                                      var url = &laquo;https://10.0.0.1/index.html&raquo;;<br>
-                var xhr = new XMLHttpRequest;
-                                    </p>
-                                    <p>
-                                      // Expand URL to ~4kB using a&nbsp;query string<br>
-                                      // Alternatively, force a&nbsp;large cookie<br>
-                                      url += &laquo;?&raquo;;<br>
-                                      var x = 10000000;<br>
-                                      for (var i=0; i&lt;=500; i++) {<br>
-                                      url += x++;<br>
-                                      }<br>
-                                    </p>
-                                    <p>
-                                      while(true) {<br>
-                                        xhr.open(&quot;HEAD&quot;, url, false);<br>
-                                        xhr.withCredentials = true;<br>
-                                        xhr.send();<br>
-                                        xhr.abort();<br>
-                                      }
-                                    </p>
-                                  </code>
+                    <p>
+                      var url = &laquo;https://10.0.0.1/index.html&raquo;;<br>
+var xhr = new XMLHttpRequest;
+                    </p>
+                    <p>
+                      // Expand URL to ~4kB using a&nbsp;query string<br>
+                      // Alternatively, force a&nbsp;large cookie<br>
+                      url += &laquo;?&raquo;;<br>
+                      var x = 10000000;<br>
+                      for (var i=0; i&lt;=500; i++) {<br>
+                      url += x++;<br>
+                      }<br>
+                    </p>
+                    <p>
+                      while(true) {<br>
+                        xhr.open(&quot;HEAD&quot;, url, false);<br>
+                        xhr.withCredentials = true;<br>
+                        xhr.send();<br>
+                        xhr.abort();<br>
+                      }
+                    </p>
+                  </code>
 
 
                                 <p>Важным требованием для осуществления атаки является необходимость отправки
@@ -625,6 +633,8 @@
 
 
                                 <h3>Пример таблицы</h3>
+
+
                                 <table>
                                     <tr>
                                         <th>Номер</th>
@@ -675,40 +685,9 @@
 
                                     <span>Показывать номер термина</span>
                                 </q>
-                                <q>
-
-                                    <label for="num">
-                                        <input type="checkbox" name="num_checkbox" id="num" disabled>
-                                    </label>
-
-                                    <span>Disabled</span>
-                                </q>
-                                <q>
-
-                                    <label for="num_rad">
-                                        <input type="radio" name="num_rad" name="rad">
-                                    </label>
-
-                                    <span>Показывать</span>
-                                </q>
-                                <q>
-
-                                    <label for="num_rad">
-                                        <input type="radio" name="num_rad" name="rad">
-                                    </label>
-
-                                    <span>Скрыть</span>
-                                </q>
-                                <q>
-
-                                    <label for="num_rad">
-                                        <input type="radio" name="num_rad" name="rad" disabled>
-                                    </label>
-
-                                    <span>Disabled</span>
-                                </q>
 
                             </div>
+
                         </article>
                     </div>
                 </div>
@@ -766,8 +745,8 @@
                                     <li class="footer-menu__item"><a href="#" title="Конкурентная разведка">Конкурентная
                                             разведка</a></li>
                                     <li class="footer-menu__item"><a href="#"
-                                            title="Программы для веб-мастеров">Программы
-                                            для веб-мастеров</a></li>
+                                            title="Программы для веб-мастеров">Программы для
+                                            веб-мастеров</a></li>
                                     <li class="footer-menu__item"><a href="#" title="Разработка">Разработка</a></li>
                                     <li class="footer-menu__item"><a href="#" title="Активное противодействие">Активное
                                             противодействие</a></li>
@@ -801,11 +780,11 @@
         </footer>
     </div>
     <!-- js-->
-    <script defer src="./assets/js/vendors.js"></script>
+    <script defer src="./assets/js/vendors.js?v=da32d7a"></script>
     <script defer src="./assets/js/decor.js"></script>
-    <script defer src="./assets/js/main.js"></script>
+    <script defer src="./assets/js/main.js?v=4c15106"></script>
+    <script src="./assets/js/progressbar.js"></script>
     <script src="./assets/js/sidebar.js"></script>
-
 </body>
 
 </html>
