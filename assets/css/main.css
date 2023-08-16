@@ -9454,10 +9454,25 @@ table {
     #article .container .article__head--small-image .article__title{
         margin-top: 0;
     }
+    .header-blog{
+        top: 0 !important;
+    }
 }
-
-
-
+.header-blog .logo-7.rfr {
+    height: 162px !important;
+}
+.header-blog {
+    position: absolute;
+    width: 460px;
+    height: 135px;
+    top: 28px;
+}
+@media (max-width: 768px){
+    .header-blog .logo-7.rfr {
+        height: 120px !important;
+        margin: 0 auto;
+    }
+}
 
 
 
