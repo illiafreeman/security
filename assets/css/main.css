@@ -583,7 +583,7 @@ header .container .header-ascii {
 }
 
 header .container .header-ascii__art {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     height: 69px;
     justify-content: center;
@@ -2422,6 +2422,8 @@ footer .container .footer-menu__item a {
         font-size: 9px;
         letter-spacing: -0.18px;
         text-shadow: 0 0 34px rgba(0, 225, 255, 0.5), 0 24px 220px #00e1ff;
+        //position: relative;
+        //top: 20px;
     }
 
     header .container .header-menu ul li a:hover {
@@ -3960,6 +3962,16 @@ main {
 }
 
 @media screen and (max-width: 1280px) {
+    header .container .header-ascii__lead {
+        align-self: center;
+        color: #0c1924;
+        display: flex;
+        font-size: 9px;
+        letter-spacing: -0.18px;
+        text-shadow: 0 0 34px rgba(0, 225, 255, 0.5), 0 24px 220px #00e1ff;
+        position: relative;
+        top: 20px;
+    }
 
     .article__main_blog .article__head--small-image,
     .article__main_blog .article__group {
@@ -5566,7 +5578,9 @@ header {
 }
 
 @media (max-width:992px) {
-
+    header .container .header-ascii__lead {
+        display: none;
+    }
     .text-animation {
         font-size: 30px;
         line-height: 1;
@@ -7496,7 +7510,9 @@ header .container.bordb-t {
     .logo-4,
     .logo-5,
     .logo-6,
-    .logo-8 {
+    .logo-7,
+    .logo-8,
+    .logo-9 {
         width: 518px !important;
         height: auto !important;
     }
