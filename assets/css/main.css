@@ -7209,9 +7209,13 @@ header .container.bordb-t {
 .logo-4,
 .logo-5,
 .logo-6,
-.logo-8 {
+.logo-7,
+.logo-8,
+.logo-9 {
     width: 745px !important;
     height: 135px !important;
+    position: relative;
+    //bottom: 28px;
 }
 
 .border-rad-none {
