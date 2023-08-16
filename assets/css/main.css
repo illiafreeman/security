@@ -8900,7 +8900,6 @@ header._fixed.shadow .container::after {
 .article__body-new q {
     display: flex;
     align-items: center;
-    /* gap: 0 12px; */
     margin-top: 20px;
 }
 
