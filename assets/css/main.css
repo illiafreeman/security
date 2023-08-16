@@ -9472,6 +9472,9 @@ table {
         height: 120px !important;
         margin: 0 auto;
     }
+    .header-dest .header-ascii__art img {
+        width: 360px !important;
+    }
 }
 
 
