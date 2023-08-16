@@ -7266,32 +7266,32 @@ header .container.bordb-t {
 
     header .container .header-ascii {
         position: relative;
-        top: 28px;
+        //top: 28px;
     }
 
     header .container .header-ascii .logo-2 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-3 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-6 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-1 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-7 {
         width: 650px;
-        top: -15px;
+        //top: -15px;
         position: relative;
     }
 
@@ -7444,27 +7444,27 @@ header .container.bordb-t {
 
     header .container .header-ascii {
         position: relative;
-        top: 28px;
+        //top: 28px;
     }
 
     header .container .header-ascii .logo-2 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-3 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-6 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-1 {
         position: relative;
-        top: -23px;
+        //top: -23px;
     }
 
     header .container .header-ascii .logo-7 {
@@ -7480,7 +7480,7 @@ header .container.bordb-t {
 
     header .container .header-ascii__lead {
         position: relative;
-        bottom: 25px;
+        bottom: 0px;
     }
 
     .header__label {
@@ -7667,7 +7667,7 @@ header .container.bordb-t {
 
 @media (min-width: 1280px) {
     .header-dest {
-        margin-top: -18px;
+        //margin-top: -18px;
     }
 
     ._fixed._fixed.shadow.header-dest {
